@@ -1,0 +1,13 @@
+default: &default
+  environment: 'development'
+  root_url: '/home/dyao/Workspace/navtrac_test'
+
+development:
+  <<: *default
+  test_url: 'http://localhost:3000'
+
+staging:
+  <<: *default
+
+production:
+  <<: *default

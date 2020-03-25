@@ -1,0 +1,17 @@
+default: &default
+  environment: 'development'
+
+development:
+  <<: *default
+  host: 'localhost'
+  database: 'aptonomy_development'
+  user: 'root'
+  password: ''
+  port: '3306'
+
+
+staging:
+  <<: *default
+
+production:
+  <<: *default
