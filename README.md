@@ -1,18 +1,23 @@
-# python-testing-framework
-Testing tools
+# navtrac-testing-tools
+Testing tools for Navtrac apps
 
 ## Installation
 - Make sure you are running python3 v3.x.x
-- Make sure install.sh is executable
-```bash
-chmod 700 install.sh
-```
 - Use package [pip3] to install requirements
 ```bash
 ./install.sh
 ```
+- Make sure you activate the virtual environment
+```bash
+source .venv/bin/activate
+```
+- To exit virtual environment, type
+```bash
+deactivate
+```
 
 ## Run
+- Run while in virtual environment
 ```bash
 python3 main.py
 ```
