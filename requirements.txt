@@ -4,6 +4,6 @@ peewee==3.6.4
 pry.py==0.1.1
 psycopg2==2.8.3
 PyMySQL==0.9.3
-pyyaml==5.3.1
+pyyaml==5.4
 selenium==3.141.0
 selenium-requests==1.3
